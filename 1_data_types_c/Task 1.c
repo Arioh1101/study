@@ -12,10 +12,10 @@ int main() {
     float c = a + b; // сумма чисел
     float d = a - b; // разность чисел
     float e = a * b; // произведение чисел
-    float f = a / b; // частное чисел
+    double f = a / b; // частное чисел
     printf("сумма чисел\n a + b = %f\n", c);
     printf("разность чисел\n a - b = %f\n", d);
     printf("произведение чисел\n a * b = %f\n", e);
-    printf("частное чисел\n a / b 9.= %f\n", f);
-    retrn 0;
+    printf("частное чисел\n a / b = %f\n", f);
+    return 0;
 }
